@@ -33,8 +33,8 @@ st.markdown(
 
 # ---------- LOAD MODELS ----------
 # Update these paths if your model files are in another location
-DIABETES_MODEL_PATH = r'C:/Users/mausa/OneDrive/Desktop/ML/Model/diabetes_model.sav'
-HEART_MODEL_PATH = r'C:/Users/mausa/OneDrive/Desktop/ML/Model/trained_model.sav'
+DIABETES_MODEL_PATH = r'C:/Users/mausa/OneDrive/Desktop/ML/Multi disease prediction system/diabetes_model.sav'
+HEART_MODEL_PATH = r'C:/Users/mausa/OneDrive/Desktop/ML/Multi disease prediction system/trained_model.sav'
 
 def load_model(path):
     try:
@@ -314,3 +314,4 @@ if st.sidebar.checkbox("Show Prediction History", value=False):
 # ---------- FOOTER ----------
 st.markdown("---")
 st.markdown("Built with ❤️ — Saumya Arora")
+
